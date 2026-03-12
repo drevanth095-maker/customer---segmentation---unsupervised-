@@ -3,6 +3,7 @@ df['Cluster'] = kmeans.fit_predict(X_scaled)
 
 print(df.head())
 
+   X → Independent variable
 Age  HeartDisease  Cluster
 45       0           0
 54       1           1
