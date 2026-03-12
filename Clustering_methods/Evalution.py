@@ -16,7 +16,7 @@ Meaning:
    So additional clusters do not provide meaningful separation
    The Elbow Method helps determine the optimal number of clusters (K) by minimizing the Within Cluster Sum of Squares (WCSS)
 # 2-Silhouette Score---
-
+   Higher score = better clustering
    Measures how similar a point is to own cluster When it is  compared to other clusters
 Range:
    -1 ≤ S ≤ 1
@@ -27,6 +27,12 @@ Close to 1	    Good clustering
 Close to 0      Overlapping clusters
 Negative	      Wrong clustering
 
+#--3. Davies-Bouldin Index--
+     Lower DB index = better clusters
+     K=2 → 0.42 (lowest)
+     K=3 → 0.66
+     K=4 → 0.81
+    Thus K=2 produces the separated clusters
 #--Why Number of Clusters choosen--
 No.of clusters =2 because
 All three metrics agree:
