@@ -1,4 +1,6 @@
-Customer Segmentation Using Clustering Algorithms ➡️1. Project Title
+Customer Segmentation Using Clustering Algorithms 
+
+➡️1. Project Title
 
 Customer Segmentation using Machine Learning Clustering Algorithms (KMeans, Hierarchical, DBSCAN)
 
